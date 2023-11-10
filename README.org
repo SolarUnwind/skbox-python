@@ -1,0 +1,26 @@
+* Modularised solutions to trivial Python problems
+
+A bunch of solutions for Skillbox's "Python Beginners Level 1" module
+course.
+
+** How to run
+
+Simply clone with ~git~ and run with ~python3~ by providing module number.
+Just like this:
+
+#+begin_example
+$ git clone https://github.com/SolarUnwind/skbox-python.git
+$ cd skbox-python
+$ python3 main.py -h
+usage: main.py [-h] M
+
+Invoke a module based on user input.
+
+positional arguments:
+M           Module number (3 to 11)
+
+options:
+-h, --help  show this help message and exit
+
+$ python3 main.py 3
+#+end_example
