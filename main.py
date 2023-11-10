@@ -13,6 +13,7 @@ def main():
         import module3 as module3
     elif args.module_number == 4:
         print("Стартуем модуль 4.")
+        import module4 as module4
     elif args.module_number == 5:
         print("Пока не готово.. жарится!")
     elif args.module_number == 6:
