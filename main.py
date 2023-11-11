@@ -9,13 +9,14 @@ def main():
     args = parser.parse_args()
 
     if args.module_number == 3:
-        print("Стартуем модуль 3.")
+        print("Стартуем модуль 3!\n")
         import module3 as module3
     elif args.module_number == 4:
-        print("Стартуем модуль 4.")
+        print("Стартуем модуль 4!\n")
         import module4 as module4
     elif args.module_number == 5:
-        print("Пока не готово.. жарится!")
+        print("Стартуем модуль 5!\n")
+        import module5 as module5
     elif args.module_number == 6:
         print("Пока не готово.. варится!")
     elif args.module_number == 7:
