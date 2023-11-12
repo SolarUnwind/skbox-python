@@ -4,7 +4,7 @@ import argparse
 
 def main():
     parser = argparse.ArgumentParser(description="Invoke a module based on user input.")
-    parser.add_argument("module_number", metavar='M', type=int, choices=range(3, 12), help="Module number (3 to 11)")
+    parser.add_argument("module_number", metavar='M', type=int, choices=range(3, 14), help="Module number (3 to 13)")
 
     args = parser.parse_args()
 
@@ -29,8 +29,12 @@ def main():
         print("Пока не готово.. осваиваится!")
     elif args.module_number == 11:
         print("Пока не готово.. обустраиваится!")
+    elif args.module_number == 12:
+        print("Пока не готово.. делегируется!")
+    elif args.module_number == 13:
+        print("Пока не готово.. обдумывается!")
     else:
-        print("Неверный номер модуля. Следует выбрать между 3 до 11.")
+        print("Неверный номер модуля. Следует выбрать между 3 до 13.")
 
 if __name__ == "__main__":
     main()
