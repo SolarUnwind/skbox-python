@@ -34,7 +34,7 @@ print(f"Факториал числа {number} равен {factorial}")
 
 # number = int(input("Введите число: "))
 # result = factorial(number)
-# print(f"Факториал числа {number} равен {factorial}")
+# print(f"Факториал числа {number} равен {result}")
 
 #------------------------------------------------------
 # Вычисление факториала на языке Haskell.
