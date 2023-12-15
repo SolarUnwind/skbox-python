@@ -27,7 +27,8 @@ def main():
         print("Стартуем модуль 8!\n")
         import module8 as module8
     elif args.module_number == 9:
-        print("Пока не готово.. пилится!")
+        print("Стартуем модуль 9!\n")
+        import module9 as module9
     elif args.module_number == 10:
         print("Пока не готово.. осваиваится!")
     elif args.module_number == 11:
