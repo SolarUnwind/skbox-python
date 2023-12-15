@@ -9,12 +9,8 @@ print('Задача 1. Я стал новым пиратом!')
 words = []
 
 for i in range(1, 11):
-    word = input(f"Введите слово {i}: ")
+    word = input(f"Введите слово {i}: ").lower()
     words.append(word)
 
-count = 0
-for word in words:
-    if word.lower() == "карамба":
-        count += 1
-
-print("Количество слов, совпадающих со словом ‘Карамба’:", count)
+karamba_count = words.count("карамба")
+print("Количество слов, совпадающих со словом ‘Карамба’:", karamba_count)
