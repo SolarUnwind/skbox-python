@@ -30,7 +30,8 @@ def main():
         print("Стартуем модуль 9!\n")
         import module9 as module9
     elif args.module_number == 10:
-        print("Пока не готово.. осваиваится!")
+        print("Стартуем модуль 10!\n")
+        import module10 as module10
     elif args.module_number == 11:
         print("Пока не готово.. обустраиваится!")
     elif args.module_number == 12:
