@@ -36,7 +36,8 @@ def main():
         print("Стартуем модуль 11!\n")
         import module11 as module11
     elif args.module_number == 12:
-        print("Пока не готово.. делегируется!")
+        print("Стартуем модуль 12!\n")
+        import module12 as module12
     elif args.module_number == 13:
         print("Пока не готово.. обдумывается!")
     else:
