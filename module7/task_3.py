@@ -35,16 +35,3 @@ print(f"Факториал числа {number} равен {factorial}")
 # number = int(input("Введите число: "))
 # result = factorial(number)
 # print(f"Факториал числа {number} равен {result}")
-
-#------------------------------------------------------
-# Вычисление факториала на языке Haskell.
-# По сути - это своего рода Haskell "Hello World!"
-# Вариант 1:
-
-# fac :: (Integral a) => a -> a
-# fac n = product [1..n]
-
-# Вариант 2:
-# fac :: (Integral a) => a -> a
-# fac 0 = 1
-# fac n = n * fac (n - 1)

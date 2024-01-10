@@ -27,14 +27,3 @@ if string == reverse_string:
     print("Да, это палиндром!")
 else:
     print("Нет, это не палиндром!")
-
-# Определение палиндрома на Haskell:
-# isPalindrome :: String -> Bool
-# isPalindrome str = str == reverse str
-
-# main :: IO ()
-# main = do
-#   input <- getLine
-#   if isPalindrome input
-#     then putStrLn "Да, это палиндром!"
-#     else putStrLn "Нет, это не палиндром!"
