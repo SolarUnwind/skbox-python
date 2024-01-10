@@ -17,7 +17,7 @@ usage: main.py [-h] M
 Invoke a module based on user input.
 
 positional arguments:
-M           Module number (3 to 11)
+M           Module number (3 to 13)
 
 options:
 -h, --help  show this help message and exit

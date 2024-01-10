@@ -39,7 +39,8 @@ def main():
         print("Стартуем модуль 12!\n")
         import module12 as module12
     elif args.module_number == 13:
-        print("Пока не готово.. обдумывается!")
+        print("Стартуем модуль 13!\n")
+        import module13 as module13
     else:
         print("Неверный номер модуля. Следует выбрать между 3 до 13.")
 
